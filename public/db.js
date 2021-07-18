@@ -6,7 +6,7 @@ const request = indexedDB.open('BudgetDB', 1);
 // Create an object store inside the onupgradeneeded method.
 request.onupgradeneeded = ({ target }) => {
     const db = target.result;
-    db.createObjectStore('BudgetStore'), { autoIncrement: true };
+    db.createObjectStore('BudgetStore', { autoIncrement: true});
 };
 
 request.onerror = function (e) {
@@ -66,8 +66,7 @@ request.onsuccess = function (e) {
         checkDatabase();
     }
 };
-
-const saveRecord = (record) => {
+function saveRecord(record){
     console.log('Save record invoked');
     // Create a transaction on the BudgetStore db with readwrite access
     const transaction = db.transaction(['BudgetStore'], 'readwrite');

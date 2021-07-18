@@ -1,5 +1,4 @@
-let transactions = [];
-let myChart;
+
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
@@ -9,6 +8,8 @@ if ("serviceWorker" in navigator) {
       });
   });
 }
+let transactions = [];
+let myChart;
 
 fetch("/api/transaction")
   .then(response => {
