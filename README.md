@@ -69,4 +69,4 @@ SO THAT my account balance is accurate when I am traveling
 ## Links
 
 Repository: https://github.com/harviator/budget-tracker \
-Deployed: https://radiant-gorge-41427.herokuapp.com/?id=60f0cac4efd2010015e1372c
+Deployed: https://polar-thicket-93893.herokuapp.com/
