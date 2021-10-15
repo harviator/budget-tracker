@@ -2,10 +2,6 @@
 
 # Budget Tracker
 
-## Background
-
-This was a project for the UofT Bootcamp.
-
 ## Table of Contents
 [Description](#description)\
 [Motivation](#motivation)\
@@ -54,11 +50,10 @@ SO THAT my account balance is accurate when I am traveling
 
 ## Process
 
-* For this project we were given some starter code.
-* Based on the start code I created the db.js to work with IndexedDB to store data offline and pass that data into the database once online, then using a service worker and manifest to store files to render the website in the cache.
+* This project began with some starter code.
+* Based on the starter code I created the db.js to work with IndexedDB to store data offline and pass that data into the database once online, then using a service worker and manifest to store files to render the website in the cache.
 * The biggest challenges for this project I had was getting the service worker to function properly.
 * The successes for this project was getting a better getting more exposure to working with IndexedDB, service worker, and manifest file to create a PWA.
-* Credit to my tutor, TA's, and classmates for their help.
 
 ## Screen Shot
 
